@@ -1,20 +1,3 @@
-# 
-# Compression application using adaptive Huffman coding
-# 
-# Usage: python adaptive-huffman-compress.py InputFile OutputFile
-# Then use the corresponding adaptive-huffman-decompress.py application to recreate the original input file.
-# Note that the application starts with a flat frequency table of 257 symbols (all set to a frequency of 1),
-# collects statistics while bytes are being encoded, and regenerates the Huffman code periodically. The
-# corresponding decompressor program also starts with a flat frequency table, updates it while bytes are being
-# decoded, and regenerates the Huffman code periodically at the exact same points in time. It is by design that
-# the compressor and decompressor have synchronized states, so that the data can be decompressed properly.
-# 
-# Copyright (c) Project Nayuki
-# 
-# https://www.nayuki.io/page/reference-huffman-coding
-# https://github.com/nayuki/Reference-Huffman-coding
-# 
-
 import contextlib, sys
 import huffmancoding
 

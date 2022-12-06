@@ -1,15 +1,4 @@
-# 
-# Reference Huffman coding
-# Copyright (c) Project Nayuki
-# 
-# https://www.nayuki.io/page/reference-huffman-coding
-# https://github.com/nayuki/Reference-Huffman-coding
-# 
-
 import heapq
-
-
-# ---- Huffman coding core classes ----
 
 # Encodes symbols and writes to a Huffman-coded bit stream.
 class HuffmanEncoder:
