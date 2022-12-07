@@ -2,11 +2,8 @@ import subprocess
 import time
 import os
 import matplotlib.pyplot as plt
-import matplotlib
 import numpy as np
-import math
 
-# digitSizes = [1000, 10000, 100000, 500000, 1000000, 5000000]
 digitSizes = [10000, 50000, 75000, 100000, 250000, 500000, 750000]
 fileSizesInKB = []
 compressedFileSizesInKB = []
